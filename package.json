@@ -1,11 +1,10 @@
 {
     "name": "@tolkam/react-countdown",
-    "version": "1.0.0",
-    "description": "Simple counter",
-    "main": "src/index.tsx",
+    "description": "Simple countdown component",
+    "browser": "src/index.tsx",
+    "types": "src/index.tsx",
     "license": "UNLICENSED",
-    "private": true,
-    "dependencies": {
+    "peerDependencies": {
         "react": "^16.5"
     },
     "devDependencies": {
